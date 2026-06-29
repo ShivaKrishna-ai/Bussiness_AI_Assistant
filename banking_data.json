@@ -1,0 +1,93 @@
+{
+  "customer": {
+    "name": "Shiva Krishna",
+    "customer_id": "CUST-1055",
+    "branch": "SBI Main Branch"
+  },
+  "accounts": [
+    {
+      "type": "Savings",
+      "number": "XXXX3210",
+      "balance": 84500.75,
+      "currency": "INR"
+    },
+    {
+      "type": "Checking",
+      "number": "XXXX9087",
+      "balance": 22340.5,
+      "currency": "INR"
+    }
+  ],
+  "loans": [
+    {
+      "type": "Home Loan",
+      "outstanding": 1250000.0,
+      "emi": 18500.0,
+      "next_due_date": "2026-07-05"
+    },
+    {
+      "type": "Car Loan",
+      "outstanding": 240000.0,
+      "emi": 9200.0,
+      "next_due_date": "2026-07-11"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2026-06-28",
+      "description": "Salary Credit",
+      "category": "Income",
+      "amount": 65000.0,
+      "type": "credit"
+    },
+    {
+      "date": "2026-06-27",
+      "description": "Supermarket Purchase",
+      "category": "Groceries",
+      "amount": 2450.0,
+      "type": "debit"
+    },
+    {
+      "date": "2026-06-26",
+      "description": "Electricity Bill",
+      "category": "Utilities",
+      "amount": 1800.0,
+      "type": "debit"
+    },
+    {
+      "date": "2026-06-25",
+      "description": "Restaurant Dinner",
+      "category": "Food",
+      "amount": 1350.0,
+      "type": "debit"
+    },
+    {
+      "date": "2026-06-24",
+      "description": "Fuel Station",
+      "category": "Transport",
+      "amount": 2200.0,
+      "type": "debit"
+    },
+    {
+      "date": "2026-06-22",
+      "description": "Online Shopping",
+      "category": "Shopping",
+      "amount": 4100.0,
+      "type": "debit"
+    },
+    {
+      "date": "2026-06-20",
+      "description": "Movie Tickets",
+      "category": "Entertainment",
+      "amount": 900.0,
+      "type": "debit"
+    },
+    {
+      "date": "2026-06-18",
+      "description": "Pharmacy",
+      "category": "Healthcare",
+      "amount": 780.0,
+      "type": "debit"
+    }
+  ]
+}
